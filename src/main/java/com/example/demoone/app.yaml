@@ -1,0 +1,11 @@
+runtime: java17
+
+runtime_config:
+  jdk: openjdk8
+
+handlers:
+  -url: /.*
+
+manual_scaling:
+  instance: 1
+
